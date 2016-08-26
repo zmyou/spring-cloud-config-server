@@ -15,6 +15,7 @@ environments:
         url: http://foo.bar.com
         name: My Cool App
 
+#不能有不能访问的ip，否则client不能启动
 server:
     address: 127.0.0.1
 ---
